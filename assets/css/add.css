@@ -1,0 +1,165 @@
+/* --------------------- FACULTY  PAGE  CSS ----------------- */
+
+.hero .quote {
+    color: rgba(220, 220, 220, 0.8);
+    font-family: cursive;
+    font-size: 1em;
+    background-color: #29456f2f;
+    border-radius: 20px;
+    padding: 30px 10px 30px 10px;
+}
+
+.destinations .grid li {
+    list-style: none;
+    height: 350px;
+    padding: 10px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.destinations .grid li.small {
+    flex-basis: 30%;
+}
+
+.destinations .grid li.large {
+    flex-basis: 70%;
+}
+
+.fac {
+    background-color: #1a1e33;
+    width: 450px;
+    margin-top: 25px;
+    height: 500px;
+    border-radius: 20px;
+    color: rgb(244, 237, 237);
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    transition: all ease-out 1s;
+}
+
+.fac:hover {
+    box-shadow: 5px 2px 50px rgba(0, 0, 0, 0.28);
+    opacity: 1.0;
+    transform: scale(1);
+    transition: all ease 0.5s;
+}
+
+.facimg {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.facimg img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px 0 rgb(99, 99, 99);
+}
+
+.facname {
+    height: 40px;
+    text-align: center;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.facpos {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(135, 110, 110);
+}
+
+.facmail {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.facmail a button {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+    border: 1px solid;
+    color: #ffffff;
+    background-color: #4286f4;
+    transform: scale(1);
+    transition: all ease 0.5s;
+}
+
+.facmail a button:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+
+
+/* ---------------- ALUMNI PAGE CSS ---------------- */
+
+.alumnisection h2 {
+    margin-top: 150px;
+}
+
+.alumnicontainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.alumnicard {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+}
+
+.alumnicard:hover {
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: all ease 0.5s;
+}
+
+.alumnicard-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.alumnicard-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+}
+
+.tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tag-teal {
+    background-color: #4286f4;
+}
+
+
+/* ---------------- ALUMNI CSS ENDS ----------------- */
